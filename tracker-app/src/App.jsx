@@ -1,9 +1,12 @@
-import Header from './Header.jsx'
-function App() {
+import React from 'react';
+import { Typography } from '@material-ui/core';
 
-  return(
-    <Header></Header>
+const App = () => {
+  return (
+    <div>
+        <Typography variant = "h1">Hello World</Typography>
+    </div>
   )
 }
 
-export default App
+export default App; 
