@@ -1,10 +1,18 @@
 import React from 'react';
-import {Typography, AppBar,} from '@mui/material'
-
+import { Typography, AppBar, Card, CardActions, CardContent, CardMedia, CssBaseline, Grid, Toolbar } from '@mui/material'
+import { PhotoCamera } from '@mui/icons-material'
 const App = () => {
   return (
     <div>
-      <Typography variant="h1">Hello</Typography>
+      <>
+        <CssBaseline />
+        <AppBar position='relative' color='default'>
+          <Toolbar>
+            <PhotoCamera />
+            <Typography variant='h6'>Antoine Edwards</Typography>
+          </Toolbar>
+        </AppBar>
+      </>
     </div>
   )
 }
